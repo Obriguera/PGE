@@ -4,5 +4,5 @@ Repo para programación genérica y eventos.
 Grupo:
 -Briguera Octavio
 -Carivali Yefim
--Geurrero Luataro
+-Geurrero Lautaro
 -Juares Carlos
