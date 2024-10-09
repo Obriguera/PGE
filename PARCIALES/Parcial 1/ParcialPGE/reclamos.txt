@@ -1,0 +1,7 @@
+johnsmith,Perez,12345678,johnsmith@gmail.com,Calle Falsa 123,janedoe,Problema,Descripción del problema,01/09/2024,R1234,A recibir,0,0,0,0
+janedoe,Gomez,87654321,janedoe@gmail.com,Avenida Siempre Viva 742,migueldiaz,Consulta,Descripción de la consulta,02/09/2024,R5678,A recibir,0,0,0,0
+migueldiaz,Lopez,11223344,migueldiaz@gmail.com,johnsmith,Reclamo,Descripción del reclamo,03/09/2024,R9101,En proceso,0,0,0,0
+johnsmith,Perez,12345678,johnsmith@gmail.com,Calle Falsa 123,janedoe,pp,wewe,7/7/7,R6065,A recibir,0,0,0,0
+lol,lolo,4444444,pepe@p,tu vieja,migueldiaz,si,si,4/4/7,R504,A recibir,0,0,0,0
+lol,lolo,4444444,pepe@p,tu vieja,janedoe,si,sadada,2/7/7,R1977,0,0,0,0
+lol,lolo,4444444,pepe@p,tururu,johnsmith,pp,ppp,7/7/7,15107,0,0,0,0

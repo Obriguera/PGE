@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E52475FB-34E1-4401-9AC1-C81BFED34AB7}|ConsoleApp1\\ConsoleApp1.csproj|d:\\usuario lab\\descargas\\tarea 8\\parte 4\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52475FB-34E1-4401-9AC1-C81BFED34AB7}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52475FB-34E1-4401-9AC1-C81BFED34AB7}|ConsoleApp1\\ConsoleApp1.csproj|D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\consoleapp1\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52475FB-34E1-4401-9AC1-C81BFED34AB7}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52475FB-34E1-4401-9AC1-C81BFED34AB7}|ConsoleApp1\\ConsoleApp1.csproj|D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\consoleapp1\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52475FB-34E1-4401-9AC1-C81BFED34AB7}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52475FB-34E1-4401-9AC1-C81BFED34AB7}|ConsoleApp1\\ConsoleApp1.csproj|D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\consoleapp1\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52475FB-34E1-4401-9AC1-C81BFED34AB7}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\ConsoleApp1\\Utility.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Utility.cs",
+              "ToolTip": "D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\ConsoleApp1\\Utility.cs",
+              "RelativeToolTip": "ConsoleApp1\\Utility.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwCgAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T02:36:54.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\ConsoleApp1\\Logger.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Logger.cs",
+              "ToolTip": "D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\ConsoleApp1\\Logger.cs",
+              "RelativeToolTip": "ConsoleApp1\\Logger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T02:34:19.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\ConsoleApp1\\FileManager.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\FileManager.cs",
+              "ToolTip": "D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\ConsoleApp1\\FileManager.cs",
+              "RelativeToolTip": "ConsoleApp1\\FileManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T02:33:39.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\Usuario Lab\\Descargas\\TAREA 8\\Parte 4\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T02:27:38.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

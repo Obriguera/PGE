@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGE E9 CALC", "PGE E9 CALC.csproj", "{61640818-DC27-4BF8-B432-5EA64D2C65EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61640818-DC27-4BF8-B432-5EA64D2C65EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61640818-DC27-4BF8-B432-5EA64D2C65EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61640818-DC27-4BF8-B432-5EA64D2C65EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61640818-DC27-4BF8-B432-5EA64D2C65EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CC92640-8601-4788-8F1C-4E20F804AC42}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Recursos\Burger.png" />
+    <None Remove="Recursos\Chinese.png" />
+    <None Remove="Recursos\Desserts.png" />
+    <None Remove="Recursos\Drink.png" />
+    <None Remove="Recursos\Estrella.png" />
+    <None Remove="Recursos\Flecha.png" />
+    <None Remove="Recursos\Fries.png" />
+    <None Remove="Recursos\mapa.png" />
+    <None Remove="Recursos\Pizza.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Recursos\Burger.png" />
+    <Resource Include="Recursos\Chinese.png" />
+    <Resource Include="Recursos\Desserts.png" />
+    <Resource Include="Recursos\Drink.png" />
+    <Resource Include="Recursos\Estrella.png" />
+    <Resource Include="Recursos\Flecha.png" />
+    <Resource Include="Recursos\Fries.png" />
+    <Resource Include="Recursos\mapa.png" />
+    <Resource Include="Recursos\Pizza.png" />
+  </ItemGroup>
+
+</Project>

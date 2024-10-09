@@ -1,0 +1,4 @@
+15/9/2024 23:38:24: Leyendo archivo: C:\Users\Usuario\Desktop\TAREA 8\Parte 3\bin\Debug\net8.0\archivo.txt 
+15/9/2024 23:38:47: Escribiendo archivo: C:\Users\Usuario\Desktop\TAREA 8\Parte 3\bin\Debug\net8.0\archivo.txt
+15/9/2024 23:38:50: Leyendo archivo: C:\Users\Usuario\Desktop\TAREA 8\Parte 3\bin\Debug\net8.0\archivo.txt
+20/9/2024 15:55:26: Leyendo archivo: D:\Usuario Lab\Descargas\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\archivo.txt

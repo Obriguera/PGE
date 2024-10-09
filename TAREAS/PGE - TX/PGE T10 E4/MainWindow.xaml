@@ -1,0 +1,28 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PGE_T10_E4"
+        xmlns:oxy="http://oxyplot.org/wpf" x:Class="PGE_T10_E4.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <!-- ComboBox para seleccionar mes o producto -->
+        <ComboBox x:Name="MesComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectionChanged="MesComboBox_SelectionChanged">
+            <ComboBoxItem Content="Enero"/>
+            <ComboBoxItem Content="Febrero"/>
+            <ComboBoxItem Content="Marzo"/>
+            <!-- Puedes agregar más meses aquí -->
+        </ComboBox>
+
+        <!-- Botón para actualizar el gráfico -->
+        <Button x:Name="ActualizarGraficoButton" Content="Actualizar Gráfico" HorizontalAlignment="Left" Margin="150,10,0,0" VerticalAlignment="Top" Width="120" Click="ActualizarGraficoButton_Click"/>
+
+        <!-- OxyPlot PlotView para mostrar el gráfico -->
+        <oxy:PlotView x:Name="PlotViewGrafico" HorizontalAlignment="Left" Height="300" VerticalAlignment="Top" Width="600" Margin="50,50,0,0"/>
+
+
+    </Grid>
+</Window>

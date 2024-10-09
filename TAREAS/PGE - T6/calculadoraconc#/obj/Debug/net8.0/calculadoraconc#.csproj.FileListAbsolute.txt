@@ -1,0 +1,42 @@
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.exe
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.deps.json
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.runtimeconfig.json
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.dll
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.pdb
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.AssemblyInfoInputs.cache
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.AssemblyInfo.cs
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.csproj.CoreCompileInputs.cache
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.dll
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\refint\calculadoraconc#.dll
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.pdb
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.genruntimeconfig.cache
+C:\Users\nahuel\source\repos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\ref\calculadoraconc#.dll
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.exe
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.deps.json
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.runtimeconfig.json
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.dll
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.pdb
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.AssemblyInfoInputs.cache
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.AssemblyInfo.cs
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.csproj.CoreCompileInputs.cache
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.dll
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\refint\calculadoraconc#.dll
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.pdb
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.genruntimeconfig.cache
+D:\Usuario Lab\Descargas\PGE-Carlos\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\ref\calculadoraconc#.dll
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.exe
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.deps.json
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.runtimeconfig.json
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.dll
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\bin\Debug\net8.0\calculadoraconc#.pdb
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.AssemblyInfoInputs.cache
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.AssemblyInfo.cs
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.csproj.CoreCompileInputs.cache
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.dll
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\refint\calculadoraconc#.dll
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.pdb
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\calculadoraconc#.genruntimeconfig.cache
+C:\Users\LAB400-PCXX\Desktop\calculadoraconc#\calculadoraconc#\obj\Debug\net8.0\ref\calculadoraconc#.dll

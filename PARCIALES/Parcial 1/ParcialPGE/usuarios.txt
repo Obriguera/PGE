@@ -1,0 +1,4 @@
+Perez,johnsmith,1234,12345678,johnsmith@gmail.com,Calle Falsa 123
+Gomez,janedoe,abcd,87654321,janedoe@gmail.com,Avenida Siempre Viva 742
+Lopez,migueldiaz,password,11223344,migueldiaz@gmail.com,Calle Luna 456
+lolo,lol,123,4444444,pepe@p,tururu

@@ -1,0 +1,212 @@
+﻿<Window x:Class="Ejercicio10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio10"
+        mc:Ignorable="d"
+        Title="Sazón Gourmet" Height="600" Width="800" Background="#FFE7FAFF">
+
+    <Window.Resources>
+        <local:StarColorConverter x:Key="StarColorConverter"/>
+
+        <!-- Animación para ocultar el mapa y productos destacados -->
+        <Storyboard x:Key="HideMapAndHighlightsStoryboard">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="mapContainer"
+                                           Storyboard.TargetProperty="Visibility">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Collapsed}" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="highlightContainer"
+                                           Storyboard.TargetProperty="Visibility">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Collapsed}" />
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <!-- Animación para mostrar el mapa y productos destacados -->
+        <Storyboard x:Key="ShowMapAndHighlightsStoryboard">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="mapContainer"
+                                           Storyboard.TargetProperty="Visibility">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Visible}" />
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="highlightContainer"
+                                           Storyboard.TargetProperty="Visibility">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5" Value="{x:Static Visibility.Visible}" />
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+
+    <!-- ScrollViewer para toda la ventana -->
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Botón volver al principio -->
+                <RowDefinition Height="Auto"/>
+                <!-- Barra de categorías -->
+                <RowDefinition Height="Auto"/>
+                <!-- Productos con mayor calificación -->
+                <RowDefinition Height="Auto"/>
+                <!-- Lista de productos -->
+                <RowDefinition Height="Auto"/>
+                <!-- Fila del mapa -->
+            </Grid.RowDefinitions>
+
+            <!-- Botón para volver al principio -->
+            <Button Grid.Row="0" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Right" Margin="10" Click="BtnVolver_Click">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Image Source="pack://application:,,,/Recursos/Flecha.png" Width="20" Height="20" />
+                    <TextBlock Text="Inicio" FontWeight="Bold" Margin="5,0,0,0"/>
+                </StackPanel>
+            </Button>
+
+            <!-- Barra de categorías -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="1">
+                <Button Background="Transparent" BorderBrush="Transparent" x:Name="btnBurger" Margin="5" Click="BtnCategoria_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <Image Source="pack://application:,,,/Recursos/Burger.png" Width="100" />
+                        <TextBlock Text="Burger" HorizontalAlignment="Center" FontSize="15" />
+                    </StackPanel>
+                </Button>
+
+                <Button Background="Transparent" BorderBrush="Transparent" x:Name="btnPizza" Margin="5" Click="BtnCategoria_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <Image Source="pack://application:,,,/Recursos/Pizza.png" Width="100" />
+                        <TextBlock Text="Pizza" HorizontalAlignment="Center" FontSize="15" />
+                    </StackPanel>
+                </Button>
+
+                <Button Background="Transparent" BorderBrush="Transparent" x:Name="btnDessert" Margin="5" Click="BtnCategoria_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <Image Source="pack://application:,,,/Recursos/Desserts.png" Width="100" />
+                        <TextBlock Text="Dessert" HorizontalAlignment="Center" FontSize="15" />
+                    </StackPanel>
+                </Button>
+
+                <Button Background="Transparent" BorderBrush="Transparent" x:Name="btnFrench" Margin="5" Click="BtnCategoria_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <Image Source="pack://application:,,,/Recursos/Fries.png" Width="100" />
+                        <TextBlock Text="French" HorizontalAlignment="Center" FontSize="15" />
+                    </StackPanel>
+                </Button>
+
+                <Button Background="Transparent" BorderBrush="Transparent" x:Name="btnDrinks" Margin="5" Click="BtnCategoria_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <Image Source="pack://application:,,,/Recursos/Drink.png" Width="100" />
+                        <TextBlock Text="Drinks" HorizontalAlignment="Center" FontSize="15" />
+                    </StackPanel>
+                </Button>
+
+                <Button Background="Transparent" BorderBrush="Transparent" x:Name="btnChinese" Margin="5" Click="BtnCategoria_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <Image Source="pack://application:,,,/Recursos/Chinese.png" Width="100" />
+                        <TextBlock Text="Chinese" HorizontalAlignment="Center" FontSize="15" />
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+
+            <!-- Sección de productos destacados -->
+            <StackPanel x:Name="highlightContainer" Grid.Row="2" Margin="10">
+                <TextBlock Text="¡Los más elegidos!" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+                <ItemsControl x:Name="itemsControlTopProductos">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Padding="10">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Source="{Binding Imagen}" Width="100" Height="100" Grid.Column="0" Margin="10"/>
+                                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                        <TextBlock Text="{Binding Nombre}" FontWeight="Bold" FontSize="16" Margin="0,5,0,5"/>
+                                        <TextBlock Text="{Binding Descripcion}" FontSize="14" Foreground="Gray" TextWrapping="Wrap" Margin="0,5,0,5"/>
+                                    </StackPanel>
+
+                                    <!-- Sistema de estrellas para productos destacados -->
+                                    <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                                        <Button Background="Transparent" BorderBrush="Transparent" Content="★" FontSize="20" 
+                                                Command="{Binding RateCommand}" CommandParameter="1"
+                                                Foreground="{Binding Calificacion, Converter={StaticResource StarColorConverter}, ConverterParameter=1}" />
+                                        <Button Background="Transparent" BorderBrush="Transparent" Content="★" FontSize="20" 
+                                                Command="{Binding RateCommand}" CommandParameter="2"
+                                                Foreground="{Binding Calificacion, Converter={StaticResource StarColorConverter}, ConverterParameter=2}" />
+                                        <Button Background="Transparent" BorderBrush="Transparent" Content="★" FontSize="20" 
+                                                Command="{Binding RateCommand}" CommandParameter="3"
+                                                Foreground="{Binding Calificacion, Converter={StaticResource StarColorConverter}, ConverterParameter=3}" />
+                                        <Button Background="Transparent" BorderBrush="Transparent" Content="★" FontSize="20" 
+                                                Command="{Binding RateCommand}" CommandParameter="4"
+                                                Foreground="{Binding Calificacion, Converter={StaticResource StarColorConverter}, ConverterParameter=4}" />
+                                        <Button Background="Transparent" BorderBrush="Transparent" Content="★" FontSize="20" 
+                                                Command="{Binding RateCommand}" CommandParameter="5"
+                                                Foreground="{Binding Calificacion, Converter={StaticResource StarColorConverter}, ConverterParameter=5}" />
+                                    </StackPanel>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+
+            <!-- Sección de productos con scroll -->
+            <StackPanel Grid.Row="3" Margin="10">
+                <ItemsControl x:Name="itemsControlProductos">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Padding="10">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Source="{Binding Imagen}" Width="100" Height="100" Grid.Column="0" Margin="10"/>
+                                    <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                        <TextBlock Text="{Binding Nombre}" FontWeight="Bold" FontSize="16" Margin="0,5,0,5"/>
+                                        <TextBlock Text="{Binding Descripcion}" FontSize="14" Foreground="Gray" TextWrapping="Wrap" Margin="0,5,0,5"/>
+                                    </StackPanel>
+
+                                    <!-- Sistema de estrellas para productos normales -->
+                                    <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                                        <Button Background="Transparent" BorderBrush="Transparent" Content="★" FontSize="20" 
+                                                Command="{Binding RateCommand}" CommandParameter="1"
+                                                Foreground="{Binding Calificacion, Converter={StaticResource StarColorConverter}, ConverterParameter=1}" />
+                                        <Button Background="Transparent" BorderBrush="Transparent" Content="★" FontSize="20" 
+                                                Command="{Binding RateCommand}" CommandParameter="2"
+                                                Foreground="{Binding Calificacion, Converter={StaticResource StarColorConverter}, ConverterParameter=2}" />
+                                        <Button Background="Transparent" BorderBrush="Transparent" Content="★" FontSize="20" 
+                                                Command="{Binding RateCommand}" CommandParameter="3"
+                                                Foreground="{Binding Calificacion, Converter={StaticResource StarColorConverter}, ConverterParameter=3}" />
+                                        <Button Background="Transparent" BorderBrush="Transparent" Content="★" FontSize="20" 
+                                                Command="{Binding RateCommand}" CommandParameter="4"
+                                                Foreground="{Binding Calificacion, Converter={StaticResource StarColorConverter}, ConverterParameter=4}" />
+                                        <Button Background="Transparent" BorderBrush="Transparent" Content="★" FontSize="20" 
+                                                Command="{Binding RateCommand}" CommandParameter="5"
+                                                Foreground="{Binding Calificacion, Converter={StaticResource StarColorConverter}, ConverterParameter=5}" />
+                                    </StackPanel>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            
+            <!-- Mapa estático -->
+            <Grid Grid.Row="4" x:Name="mapContainer">
+                <!-- Definir dos filas dentro de este Grid -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Texto "¡Encuéntranos aquí!" en la primera fila -->
+                <TextBlock Grid.Row="0" Text="¡Encuéntranos aquí!" FontWeight="Bold" FontSize="18" HorizontalAlignment="Center" Margin="0,10"/>
+
+                <!-- Imagen del mapa en la segunda fila -->
+                <Image Grid.Row="1" x:Name="mapImage" Source="pack://application:,,,/Recursos/mapa.png" Stretch="UniformToFill"/>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Window>

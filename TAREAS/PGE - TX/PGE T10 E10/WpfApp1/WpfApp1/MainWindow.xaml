@@ -1,0 +1,30 @@
+﻿<Window x:Class="ConversorUnidades.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Conversor de las cosas" Height="300" Width="400">
+    <Grid Margin="10">
+        <Label Content="Valor a convertir:" VerticalAlignment="Top" />
+        <TextBox x:Name="txtValue" VerticalAlignment="Top" Margin="0,25,0,0" />
+
+        <Label Content="Unidad de origen:" VerticalAlignment="Top" Margin="0,48,0,0" />
+        <ComboBox x:Name="cmbFromUnit" VerticalAlignment="Top" Margin="10,79,214,0">
+            <ComboBoxItem Content="Metros" />
+            <ComboBoxItem Content="Kilómetros" />
+            <ComboBoxItem Content="Gramos" />
+            <ComboBoxItem Content="Kilogramos" />
+        </ComboBox>
+
+        <Label Content="Unidad de destino:" VerticalAlignment="Top" Margin="160,48,0,0" />
+        <ComboBox x:Name="cmbToUnit" VerticalAlignment="Top" Margin="171,79,41,0">
+            <ComboBoxItem Content="Metros" />
+            <ComboBoxItem Content="Kilómetros" />
+            <ComboBoxItem Content="Gramos" />
+            <ComboBoxItem Content="Kilogramos" />
+        </ComboBox>
+
+        <Button Content="Convertir" VerticalAlignment="Top" Margin="0,130,0,0" Click="ConvertButton_Click" />
+
+        <Label Content="Resultado:" VerticalAlignment="Top" Margin="0,170,0,0" />
+        <TextBlock x:Name="txtResult" VerticalAlignment="Top" Margin="0,195,0,0" />
+    </Grid>
+</Window>

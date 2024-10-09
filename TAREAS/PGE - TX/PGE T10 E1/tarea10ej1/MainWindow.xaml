@@ -1,0 +1,11 @@
+﻿<Window x:Class="TemperatureConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Temperatura convertidor" Height="200" Width="300">
+    <StackPanel Margin="10">
+        <TextBlock Text="Ingrese temperatura en celsius:" Margin="0,0,0,10"/>
+        <TextBox Name="txtCelsius" Width="200" Margin="0,0,0,10"/>
+        <Button Content="Convierte a fharenheit" Click="ConvertButton_Click" Width="200" Margin="0,0,0,10"/>
+        <Label Name="lblResult" Margin="0,10,0,0"/>
+    </StackPanel>
+</Window>

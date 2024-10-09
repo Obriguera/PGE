@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\obrig\\OneDrive\\Escritorio\\PGE E9\\PGE E9 CALC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61640818-DC27-4BF8-B432-5EA64D2C65EF}|PGE E9 CALC.csproj|c:\\users\\obrig\\onedrive\\escritorio\\pge e9\\pge e9 calc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61640818-DC27-4BF8-B432-5EA64D2C65EF}|PGE E9 CALC.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61640818-DC27-4BF8-B432-5EA64D2C65EF}|PGE E9 CALC.csproj|C:\\Users\\obrig\\OneDrive\\Escritorio\\PGE E9\\PGE E9 CALC\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61640818-DC27-4BF8-B432-5EA64D2C65EF}|PGE E9 CALC.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\obrig\\OneDrive\\Escritorio\\PGE E9\\PGE E9 CALC\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\obrig\\OneDrive\\Escritorio\\PGE E9\\PGE E9 CALC\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAADwv5AAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T19:36:14.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\obrig\\OneDrive\\Escritorio\\PGE E9\\PGE E9 CALC\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\obrig\\OneDrive\\Escritorio\\PGE E9\\PGE E9 CALC\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T19:32:26.105Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
